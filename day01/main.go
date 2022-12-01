@@ -8,11 +8,11 @@ import (
 )
 
 func main() {
-	elfs := strings.Split(input, "\n\n")
+	elves := strings.Split(input, "\n\n")
 
 	var sums []int
 
-	for _, elf := range elfs {
+	for _, elf := range elves {
 		items := strings.Split(elf, "\n")
 		total := 0
 		for _, item := range items {
