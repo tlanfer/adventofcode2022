@@ -9,7 +9,7 @@ import (
 func main() {
 	f := Parse(input)
 
-	log.Println("Tree visible: ", f.visibleTrees())
+	log.Println("Trees visible:", f.visibleTrees())
 	log.Println("Highest score:", f.highestScore())
 }
 
