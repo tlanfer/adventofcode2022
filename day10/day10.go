@@ -66,9 +66,9 @@ func (d *Computa) pixel() {
 	pos := d.cycles % 40
 
 	if pos >= d.x-1 && pos <= d.x+1 {
-		fmt.Print("#")
+		fmt.Print("█")
 	} else {
-		fmt.Print(".")
+		fmt.Print(" ")
 	}
 
 	if pos == 39 {
